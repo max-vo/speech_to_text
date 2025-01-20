@@ -11,7 +11,12 @@ This repository contains a script for converting audio files to text using OpenA
 ## Requirements
 
 - Python 3.x
-- OpenAI Python client library
+
+### Install Python
+
+You can download Python from [here](https://www.python.org/downloads/).
+
+IMPORTANT: When installing Python, make sure to check the option to add Python to your PATH.
 
 ## Installation
 
@@ -25,19 +30,17 @@ This repository contains a script for converting audio files to text using OpenA
 2. Install the required Python packages:
 
    ```bash
-   pip install openai argparse
+   pip install -r requirements.txt
    ```
+3. Set your OpenAI API key in the `settings.py` file. You can get your API key from [here](https://platform.openai.com/api-keys).
 
 ## Usage
 
 To use the script, run the following command:
 
 ```bash
-python stt.py --audio_file_path example.wav
+python stt.py --audio_file_path <path_to_audio_file>
 ```
 
-This will convert the audio file `example.wav` to text and save the output in `output.txt`.
+This will convert the audio file to text and save the output in `output.txt`.
 
-## API Key
-
-Set your OpenAI API key in the `settings.py` file.
