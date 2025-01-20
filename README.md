@@ -11,12 +11,17 @@ This repository contains a script for converting audio files to text using OpenA
 ## Requirements
 
 - Python 3.x
+- git
 
 ### Install Python
 
 You can download Python from [here](https://www.python.org/downloads/).
 
 IMPORTANT: When installing Python, make sure to check the option to add Python to your PATH.
+
+### Install git
+
+You can download git from [here](https://git-scm.com/downloads).
 
 ## Installation
 
