@@ -1,8 +1,10 @@
 import argparse
 from openai import OpenAI
-client = OpenAI()
+
+from settings import OPENAI_API_KEY
 
 def convert_audio_to_text(audio_file_path):
+    client = OpenAI(api_key=OPENAI_API_KEY)
     audio_file= open(audio_file_path, "rb")
     transcription = client.audio.transcriptions.create(
         model="whisper-1", 

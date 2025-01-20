@@ -38,13 +38,6 @@ python stt.py --audio_file_path example.wav
 
 This will convert the audio file `example.wav` to text and save the output in `output.txt`.
 
-## Example
+## API Key
 
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## Acknowledgments
-
-- [OpenAI](https://openai.com/) for providing the Whisper model.
-
+Set your OpenAI API key in the `settings.py` file.
