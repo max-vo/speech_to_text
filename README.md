@@ -27,6 +27,8 @@ You can download git from [here](https://git-scm.com/downloads).
 
 1. Clone the repository:
 
+   Open a terminal and run the following command (on windows you can use powershell or cmd):
+
    ```bash
    git clone https://github.com/yourusername/your-repo-name.git
    cd your-repo-name
